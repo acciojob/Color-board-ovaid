@@ -10,7 +10,7 @@ for (let i = 0; i < 800; i++) {
   });
   square.addEventListener('mouseleave', () => {
     setTimeout(() => {
-      square.style.backgroundColor = '#eee';
+      square.style.backgroundColor = 'rgb(29, 29, 29)';
     }, 1000);
   });
   container.appendChild(square);
