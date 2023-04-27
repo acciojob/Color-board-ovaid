@@ -6,7 +6,7 @@ for (let i = 0; i < 800; i++) {
   const square = document.createElement('div');
   square.classList.add('square');
   square.addEventListener('mouseenter', () => {
-    square.style.backgroundColor = '#ccc';
+    square.style.backgroundColor = 'rgb(29, 29, 29';
   });
   square.addEventListener('mouseleave', () => {
     setTimeout(() => {
